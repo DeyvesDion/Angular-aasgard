@@ -11,5 +11,8 @@ export class PublicNavBarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  public toggleMenu(): void{
+    const navLink : any = document.querySelector(".navLink");
+    navLink.classList.toggle('mobileMenu')
+}
 }

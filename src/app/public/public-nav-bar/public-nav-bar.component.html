@@ -1,1 +1,25 @@
-<p>public-nav-bar works!</p>
+<nav class="navBar">
+  <div class="contain">
+    <a href="" class="logo">Aasgard</a>
+    <div class="navLink">
+      <ul class="link">
+        <li class="linkItem"><a [routerLink]="['accueil']">Accueil</a></li>
+        <li class="linkItem"><a [routerLink]="['service']">Services</a></li>
+        <li class="linkItem"><a [routerLink]="['produit']">Produits</a></li>
+        <li class="linkItem"><a [routerLink]="['conseil']">Conseils</a></li>
+        <li class="linkItem"><a [routerLink]="['magasin']">Magasins</a></li>
+        <li class="linkItem">
+          <a [routerLink]="['prendre-rdv']" class="linkBtn">Prendre RDV</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <button (click)="toggleMenu()" class="btnMenu" type="button">
+    <img
+      class="menuHumberger"
+      src="../../../assets/menu.png"
+      alt="Menu huberger"
+      srcset=""
+    />
+  </button>
+</nav>
