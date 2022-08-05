@@ -71,14 +71,14 @@ main .experience .experience-container .description {
   line-height: 25px;
   font-weight: 400;
   width: 850px;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 main .experience .experience-container .slideImage .slide {
   width: 250px;
   position: absolute;
   right: 20px;
-  top: 800px
+  top: 800px;
 }
 
 .showSlide {
@@ -88,4 +88,118 @@ main .experience .experience-container .slideImage .slide {
   -moz-transition: all 2s ease-in-out;
   -ms-transition: all 2s ease-in-out;
   -o-transition: all 2s ease-in-out;
+}
+
+main .discovery {
+  width: 100%;
+  height: 200px;
+}
+
+main .discovery .discovery-container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #fe9c02;
+  -webkit-border: solid 2px #fe9c02;
+  -moz-border: solid 2px #fe9c02;
+  -ms-border: solid 2px #fe9c02;
+  -o-border: solid 2px #fe9c02;
+}
+
+main .discovery .discovery-container .discovery-img {
+  height: 100%;
+  width: 30%;
+  background-image: url(../../../assets/logo-discovery.png);
+}
+
+main .discovery .discovery-container .discovery-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  height: 100%;
+  width: 70%;
+  background-image: url(../../../assets/discovery.png);
+  cursor: pointer;
+  background-position: right;
+  background-size: contain;
+}
+
+main .discovery .discovery-container .discovery-contain .t1 {
+  font-size: 37px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fe9c02;
+}
+
+main .discovery .discovery-container .discovery-contain .t2 {
+  font-size: 49px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+main .discovery .discovery-container .discovery-contain .t3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+main .gift {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+
+main .gift .gift-container {
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  border: solid 2px #f29301;
+  padding: 26px 30px 20px;
+}
+
+main .gift .gift-container .gift-title {
+  position: relative;
+  text-align: center;
+}
+
+main .gift .gift-container .gift-title .title-contain {
+  position: absolute;
+  top: -39px;
+  left: 119px;
+  background-color: #fff;
+  padding: 0 5px;
+  color: #f29301;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: uppercase;
+}
+
+main .gift .gift-container .gift-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .gift .gift-container .gift-description .btn {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #f29400;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+main .gift .gift-container .gift-description .btn:hover {
+  border: solid 2px #f29400;
+  background: #fff;
+  color: #f29400;
 }
