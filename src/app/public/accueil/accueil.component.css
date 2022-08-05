@@ -1,0 +1,91 @@
+main .banner {
+  height: 89vh;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(../../../assets/Accueil_Cover.jpg);
+}
+
+main .banner .banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: baseline;
+}
+
+main .banner .banner-container .banner-title {
+  font-size: 80px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+main .banner .banner-container .bounce {
+  position: absolute;
+  top: -334px;
+  right: 14%;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: #fe9c02;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.show {
+  top: 58% !important;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+}
+
+main .experience {
+  width: 100%;
+}
+
+main .experience .experience-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+main .experience .experience-container .experience-title {
+  font-size: 60px;
+  text-align: center;
+  line-height: 70px;
+}
+
+main .experience .experience-container .description {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: 400;
+  width: 850px;
+  padding-top: 50px;
+}
+
+main .experience .experience-container .slideImage .slide {
+  width: 250px;
+  position: absolute;
+  right: 20px;
+  top: 800px
+}
+
+.showSlide {
+  top: 70% !important;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+}

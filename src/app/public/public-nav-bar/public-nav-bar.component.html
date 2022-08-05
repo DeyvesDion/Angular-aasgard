@@ -1,14 +1,24 @@
 <nav class="navBar">
   <div class="contain">
-    <a href="" class="logo">Aasgard</a>
+    <a [routerLink]="['accueil']" class="logo">A<span>ä</span>sgard</a>
     <div class="navLink">
       <ul class="link">
-        <li class="linkItem"><a [routerLink]="['accueil']">Accueil</a></li>
-        <li class="linkItem"><a [routerLink]="['service']">Services</a></li>
-        <li class="linkItem"><a [routerLink]="['produit']">Produits</a></li>
-        <li class="linkItem"><a [routerLink]="['conseil']">Conseils</a></li>
-        <li class="linkItem"><a [routerLink]="['magasin']">Magasins</a></li>
-        <li class="linkItem">
+        <li (click)="toggleMenu()" class="linkItem">
+          <a [routerLink]="['accueil']">Accueil</a>
+        </li>
+        <li (click)="toggleMenu()" class="linkItem">
+          <a [routerLink]="['service']">Services</a>
+        </li>
+        <li (click)="toggleMenu()" class="linkItem">
+          <a [routerLink]="['produit']">Produits</a>
+        </li>
+        <li (click)="toggleMenu()" class="linkItem">
+          <a [routerLink]="['conseil']">Conseils</a>
+        </li>
+        <li (click)="toggleMenu()" class="linkItem">
+          <a [routerLink]="['magasin']">Magasins</a>
+        </li>
+        <li (click)="toggleMenu()" class="linkItem">
           <a [routerLink]="['prendre-rdv']" class="linkBtn">Prendre RDV</a>
         </li>
       </ul>

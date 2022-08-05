@@ -13,6 +13,8 @@ export class PublicNavBarComponent implements OnInit {
   }
   public toggleMenu(): void{
     const navLink : any = document.querySelector(".navLink");
-    navLink.classList.toggle('mobileMenu')
+    const linkItem : any = document.querySelector(".linkItem");
+    navLink.classList.toggle('mobileMenu');
+    linkItem.classList.toggle('mobileMenu');
 }
 }
