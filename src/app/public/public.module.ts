@@ -9,6 +9,7 @@ import { PrendreRdvComponent } from './prendre-rdv/prendre-rdv.component';
 import { PublicRoutingModule } from './public-routing.module';
 import { PublicLayoutComponent } from './public-layout/public-layout.component';
 import { PublicNavBarComponent } from './public-nav-bar/public-nav-bar.component';
+import { PublicFooterComponent } from './public-footer/public-footer.component';
 
 
 
@@ -21,7 +22,8 @@ import { PublicNavBarComponent } from './public-nav-bar/public-nav-bar.component
     MagasinComponent,
     PrendreRdvComponent,
     PublicLayoutComponent,
-    PublicNavBarComponent
+    PublicNavBarComponent,
+    PublicFooterComponent
   ],
   imports: [
     CommonModule,

@@ -13,6 +13,7 @@ main .banner {
 }
 
 main .banner .banner-container {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -27,11 +28,11 @@ main .banner .banner-container .banner-title {
 
 main .banner .banner-container .bounce {
   position: absolute;
-  top: -334px;
-  right: 14%;
+  top: -710px;
+  right: -40px;
   width: 30px;
   height: 30px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   background-color: #fe9c02;
   border-radius: 100%;
   -webkit-border-radius: 100%;
@@ -41,7 +42,7 @@ main .banner .banner-container .bounce {
 }
 
 .show {
-  top: 58% !important;
+  top: 59px !important;
   transition: all 2s ease-in-out;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
@@ -74,15 +75,24 @@ main .experience .experience-container .description {
   padding: 50px 0;
 }
 
+main .experience .experience-container .slideImage {
+  position: relative;
+}
+
 main .experience .experience-container .slideImage .slide {
-  width: 250px;
   position: absolute;
-  right: 20px;
-  top: 800px;
+  top: -350px;
+  right: -110px;
+  width: 250px;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
 }
 
 .showSlide {
-  top: 70% !important;
+  top: -640px !important;
   transition: all 2s ease-in-out;
   -webkit-transition: all 2s ease-in-out;
   -moz-transition: all 2s ease-in-out;
@@ -200,6 +210,142 @@ main .gift .gift-container .gift-description .btn {
 
 main .gift .gift-container .gift-description .btn:hover {
   border: solid 2px #f29400;
+  background: #fff;
+  color: #f29400;
+}
+
+main .slide {
+  width: 100%;
+  height: auto;
+}
+
+main .slide .slide-container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .slide .slide-container .slide-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+main .slide .slide-container .slide-description .slide-txt {
+  text-align: justify;
+  padding: 30px 0;
+}
+
+main .slide .slide-container .slide-img {
+  height: 100%;
+  width: 47%;
+}
+
+main .slide .slide-container .slide-img img {
+  height: 100%;
+  width: 100%;
+}
+
+main .slide .slide-container .slide-description .btn {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  margin-top: 20px;
+  background: #f29400;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+main .slide .slide-container .slide-description .btn:hover {
+  border: solid 2px #f29400;
+  margin-top: 20px;
+  background: #fff;
+  color: #f29400;
+}
+
+main .parallax {
+  height: 80vh;
+  width: 100%;
+  padding: 50px 0;
+}
+
+main .parallax .parallax-container {
+  height: 100%;
+  width: 100%;
+  background-image: url(../../../assets/parallax.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main .video {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+main .video .video-container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .video .video-container .video-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+main .video .video-container .video-description .video-txt {
+  text-align: justify;
+  padding: 30px 0;
+}
+
+main .video .video-container .video-video {
+  height: 100%;
+  width: 47%;
+}
+
+.videoYtb {
+  height: 300px;
+  width: 100%;
+}
+
+main .video .video-container .video-description .btn {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  margin-top: 20px;
+  background: #f29400;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+main .video .video-container .video-description .btn:hover {
+  border: solid 2px #f29400;
+  margin-top: 20px;
   background: #fff;
   color: #f29400;
 }
