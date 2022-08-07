@@ -1,0 +1,226 @@
+main .banner {
+  height: 89vh;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(../../../assets/service_banner.jpg);
+}
+
+main .banner .banner-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: baseline;
+}
+
+main .banner .banner-container .banner-title {
+  font-size: 80px;
+  color: #fff;
+  font-weight: bold;
+}
+
+main .banner .banner-container .bounce {
+  position: absolute;
+  top: 59px;
+  right: -40px;
+  width: 30px;
+  height: 30px;
+  /* margin-left: 10px; */
+  background-color: #fe9c02;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+main .service-client {
+  width: 100%;
+}
+
+main .service-client .service-client-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+main .service-client .service-client-container .service-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+main .service-client .service-client-contain {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .service-client .service-client-contain .service-client-img {
+  height: 90%;
+  width: 45%;
+  background-image: url(../../../assets/Service_Client.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+main .service-client .service-client-contain .service-client-description {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: 400;
+  width: 45%;
+  padding: 50px 0;
+}
+
+main .financement {
+  width: 100%;
+}
+
+main .financement-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+main .financement .financement-container .financement-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+main .financement .financement-contain {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .financement .financement-contain .financement-description {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: 400;
+  width: 45%;
+  padding: 50px 0;
+}
+
+main .financement .financement-contain .financement-img {
+  height: 90%;
+  width: 45%;
+  background-image: url(../../../assets/Financement.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+
+main .contrat {
+  width: 100%;
+}
+
+main .contrat-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+main .contrat .contrat-container .contrat-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+main .contrat .contrat-contain {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .contrat .contrat-contain .contrat-description {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: 400;
+  width: 45%;
+  padding: 50px 0;
+}
+
+main .contrat .contrat-contain .contrat-description .title {
+  margin-bottom: 20px
+}
+
+main .contrat .contrat-contain .contrat-img {
+  height: 90%;
+  width: 45%;
+  background-image: url(../../../assets/Contrat_services.jpg);
+  background-size: contain;
+  background-position: center;
+}
+
+
+
+
+main .new-home {
+  width: 100%;
+}
+
+main .new-home-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+
+main .new-home .new-home-container .new-home-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 70px;
+}
+
+main .new-home .new-home-contain {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .new-home .new-home-contain .new-home-description {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  font-weight: 400;
+  width: 45%;
+  padding: 50px 0;
+}
+
+main .new-home .new-home-contain .new-home-description .title {
+  margin-bottom: 20px
+}
+
+main .new-home .new-home-contain .new-home-img {
+  height: 90%;
+  width: 45%;
+  background-image: url(../../../assets/Accompagnement.jpg);
+  background-size: contain;
+  background-position: center;
+}
