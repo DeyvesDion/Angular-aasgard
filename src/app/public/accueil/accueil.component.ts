@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-accueil',
@@ -7,18 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementRef: ElementRef) { }
 
   ngOnInit(): void {
-    const getBounce:any = document.querySelector(".bounce");
-    window.addEventListener("load", () => { setTimeout(() => { getBounce.classList.add("show"); }, 1000) });
 
-    window.addEventListener("scroll", () => {
+//Faire tomber la boule du haut
+const getBounce =
+      this.elementRef.nativeElement.querySelector('.bounce');
+    window.addEventListener('load', () =>
+    { setTimeout(() => { getBounce.classList.add("show"); }, 1000) });
+
 
     // Fonction toogle float-img
-    const slideToggle : any = document.querySelector(".slide");
-    slideToggle.classList.add("showSlide", window.scrollY >= 0)
-});
+    window.addEventListener("scroll", () => {
+      const slideToggle = this.elementRef.nativeElement.querySelector('.slide');
+      slideToggle.classList.add("showSlide", window.screenY >= 0);
+    });
   }
 
 }

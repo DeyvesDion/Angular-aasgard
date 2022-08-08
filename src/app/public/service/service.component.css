@@ -90,9 +90,11 @@ main .financement {
 
 main .financement-container {
   width: 80%;
+  background-color: whitesmoke;
+  padding: 30px;
   margin: 90px 0;
   margin: 0 auto;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 main .financement .financement-container .financement-title {
@@ -130,13 +132,15 @@ main .financement .financement-contain .financement-img {
 
 main .contrat {
   width: 100%;
+  padding-bottom: 80px;
 }
 
 main .contrat-container {
   width: 80%;
   margin: 90px 0;
   margin: 0 auto;
-  padding-bottom: 70px;
+  padding: 30px;
+  background-color: whitesmoke;
 }
 
 main .contrat .contrat-container .contrat-title {
@@ -186,7 +190,7 @@ main .new-home-container {
   width: 80%;
   margin: 90px 0;
   margin: 0 auto;
-  padding-bottom: 70px;
+  padding: 70px 0;
 }
 
 main .new-home .new-home-container .new-home-title {
