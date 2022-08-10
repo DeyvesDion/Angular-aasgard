@@ -1,0 +1,41 @@
+main .banner {
+  height: 89vh;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../../../assets/Produits_Cover_Feu.jpg);
+}
+
+main .banner .banner-container .banner-title {
+  font-size: 80px;
+  color: #fff;
+  font-weight: bold;
+}
+
+main .banner .banner-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .banner .banner-container .sub-title {
+  padding: 50px 0;
+}
+
+main .banner .banner-container .sub-title h2 {
+  color: #fe9c02;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+main .banner .banner-container .sub-title p {
+  color: #fff;
+  width: 634px;
+  font-size: 18px;
+  text-align: center;
+}
