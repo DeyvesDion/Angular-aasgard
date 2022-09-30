@@ -2,6 +2,7 @@
   <div class="banner">
     <div class="banner-container">
       <h1 class="banner-title">Toutes nos poêles</h1>
+      <div class="bounce"></div>
 
       <div class="sub-title">
         <h2>Poêle Aäsgard : trouvez votre poêle idéal</h2>
@@ -10,6 +11,26 @@
           aussi flamboyants les uns que les autres. Pour vous y retrouver, on
           est là pour vous aider !
         </p>
+      </div>
+    </div>
+  </div>
+  <div class="poele">
+    <div class="poele-container">
+      <div class="poele-title">Un choix diversifié de pôeles</div>
+      <div class="poele-contain">
+        <div *ngFor="let poele of poeleList" class="row">
+          <div (click)="goToPoele(poele)" class="poele-img">
+            <img
+              [src]="poele.imageUrl"
+              [title]="poele.name | titlecase"
+              [alt]="poele.name"
+            />
+          </div>
+          <div class="poele-description">
+            <h2>{{ poele.name | uppercase }}</h2>
+            <h3>{{ poele.type }}</h3>
+          </div>
+        </div>
       </div>
     </div>
   </div>

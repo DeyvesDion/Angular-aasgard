@@ -4,6 +4,10 @@ main .banner {
   text-align: center;
   background-position: center;
   background-size: cover;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
   background-attachment: fixed;
   background-image: url(../../../assets/Produits_Cover_Feu.jpg);
 }
@@ -23,6 +27,21 @@ main .banner .banner-container {
   align-items: center;
 }
 
+main .banner .banner-container .bounce {
+  position: absolute;
+  top: 133px;
+  right: -40px;
+  width: 30px;
+  height: 30px;
+  /* margin-left: 10px; */
+  background-color: #fe9c02;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
 main .banner .banner-container .sub-title {
   padding: 50px 0;
 }
@@ -38,4 +57,57 @@ main .banner .banner-container .sub-title p {
   width: 634px;
   font-size: 18px;
   text-align: center;
+}
+
+main .poele {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.poele-container {
+  /* height: 100%; */
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.poele-container .poele-title {
+  margin: 20px 0;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.poele-container .poele-contain {
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.poele-container .poele-contain .row {
+  margin: 19px 0;
+  cursor: pointer;
+  height: 100%;
+  width: 48%;
+}
+
+.poele-container .poele-contain .row .poele-img img {
+  height: 90%;
+  width: 100%;
+}
+
+.poele-container .poele-contain .row .poele-description h2 {
+  font-size: 17px;
+}
+
+.poele-container .poele-contain .row .poele-description h3 {
+  font-size: 12px;
+  color: rgb(173, 170, 170);
 }

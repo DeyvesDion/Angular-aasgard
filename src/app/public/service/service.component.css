@@ -16,7 +16,7 @@ main .banner .banner-container {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: baseline;
 }
 

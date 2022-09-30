@@ -4,6 +4,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { ConseilComponent } from './conseil/conseil.component';
 import { MagasinComponent } from './magasin/magasin.component';
 import { PrendreRdvComponent } from './prendre-rdv/prendre-rdv.component';
+import { PoeleDetailComponent } from './produit/poele-detail/poele-detail.component';
 import { ProduitComponent } from './produit/produit.component';
 import { PublicLayoutComponent } from './public-layout/public-layout.component';
 import { ServiceComponent } from './service/service.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
       {path: 'prendre-rdv', component: PrendreRdvComponent },
       {path: 'produit', component: ProduitComponent },
       {path: 'service', component: ServiceComponent },
+      {path: 'poele/:base', component: PoeleDetailComponent },
 
   ]
   },

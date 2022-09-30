@@ -1,0 +1,204 @@
+main .banner {
+  height: 89vh;
+  width: 100%;
+  text-align: left;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+}
+
+main .banner .banner-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+main .banner .banner-container .banner-title {
+  font-size: 80px;
+  color: #000;
+  font-weight: bold;
+}
+
+main .banner .banner-container .bounce {
+  position: absolute;
+  top: 177px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  /* margin-left: 10px; */
+  background-color: #fe9c02;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+main .detail {
+  width: 100%;
+}
+
+main .detail-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+main .detail-container h2 {
+  font-size: 25px;
+}
+
+main .detail-container p {
+  padding: 20px 0px;
+}
+
+main .detail-container .btn {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #f29400;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+main .detail-container .btn:hover {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #FFFFFF;
+  color: #f29400;
+}
+
+main .detail-container .img img {
+  width: 500px;
+  height: 550px;
+}
+
+main .pile {
+  width: 100%;
+}
+
+main .pile .pile-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+}
+
+main .pile .pile-container .detail {
+  width: 65%;
+  height: 200px;
+  padding: 30px 20px;
+  color: #fff;
+  background-color: #000;
+}
+
+main .pile .pile-container .detail h2 {
+  font-size: 40px;
+}
+
+main .pile .pile-container .pile-btn {
+  position: relative;
+}
+
+main .pile .pile-container .pile-btn .btn {
+  position: absolute;
+  top: 124px;
+  left: -181px;
+  width: 215px;
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #f29400;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+main .pile .pile-container .pile-btn .btn:hover {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #FFFFFF;
+  color: #f29400;
+}
+
+main .d .d-container {
+  width: 80%;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding: 70px 70px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+main .d .d-container .img img {
+  width: 500px;
+  margin-left: -90px;
+}
+
+main .d .d-container .description {
+  width: 50%;
+}
+
+main .d .d-container .description h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+main .prime {
+  margin: 90px 0;
+}
+
+main .prime-container {
+  width: 90%;
+  height: 350px;
+  margin: 90px 0;
+  margin: 0 auto;
+  padding: 70px 70px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .prime .prime-container .description p {
+  text-align: center;
+}
+
+main .prime .prime-container .prime-btn .btn {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #f29400;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+main .prime .prime-container .prime-btn .btn:hover {
+  padding: 8px 20px;
+  border: solid 2px #f29400;
+  background: #FFFFFF;
+  color: #f29400;
+}

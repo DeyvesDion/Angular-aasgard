@@ -10,6 +10,8 @@ import { PublicRoutingModule } from './public-routing.module';
 import { PublicLayoutComponent } from './public-layout/public-layout.component';
 import { PublicNavBarComponent } from './public-nav-bar/public-nav-bar.component';
 import { PublicFooterComponent } from './public-footer/public-footer.component';
+import { PoeleListComponent } from './produit/poele-list/poele-list.component';
+import { PoeleDetailComponent } from './produit/poele-detail/poele-detail.component';
 
 
 
@@ -23,7 +25,9 @@ import { PublicFooterComponent } from './public-footer/public-footer.component';
     PrendreRdvComponent,
     PublicLayoutComponent,
     PublicNavBarComponent,
-    PublicFooterComponent
+    PublicFooterComponent,
+    PoeleListComponent,
+    PoeleDetailComponent
   ],
   imports: [
     CommonModule,
